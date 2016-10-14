@@ -6,10 +6,14 @@ Els components d'aquest grup són:
 
 Ivan Mir 
 
+
 Sara González
+
 
 Cristina Roigé
 
+
 Josep Pocurull
+
 
 Primer canvi.
