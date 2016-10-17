@@ -15,11 +15,20 @@ p, ol, ul {
 p {
 	line-height: 200%;
 }
+.formp {
+	text-align: center;
+}
 
 strong {
 }
 
+/* tittle */
+.title1{
+	text-align: center;
+	margin-top: 1%;
+}
 
+/* img */
 img.border {
 }
 
@@ -68,6 +77,19 @@ hr {
 				right:-140px;
 				top:0px;
 			}
+/*  FORM   */
+form{
+	padding:30px;
+	cursor:pointer;
+	display:block;
+	width:290px;
+	margin: 0 auto;
+	margin-top: 1%;
+	text-align:left;
+}
+input{
+  color:grey;
+}
 
 /** WRAPPER */
 
@@ -161,6 +183,24 @@ hr {
 	text-transform: uppercase;
 }
 
+
+/* Footer contact */
+
+#footer-contact {
+	
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+
+}
+#footer-IES{
+
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0 15px 0;
+
+}
 
 /* Footer Content */
 
@@ -291,6 +331,7 @@ hr {
 	padding-top: 0px;
 	border-top: none;
 }
+
 
 /* List Style 2 */
 

@@ -47,26 +47,32 @@ Autor: Ivan Mir
                 <li><a href="contacte.html">Contacte</a></li>
                 </ul>
             </nav>
-            <section>
+            <!-- Banner principal -->
+            <div id="banner"><img src="images/contacto-banner.jpg" width="1200" height="240" alt="banner" /></div>
+            <h1 class="title1">Concacte</h1>
+            <p class="formp">Per enviar-nos un correu per a qualsevol cosa, ompli aquest formulari. Moltes gracies.</p>
+            <section class="form">
                 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
                     <div class="row">
-                        <label for="name">El teu nom:</label><br />
+                        <label for="name">Nom:</label><br />
                         <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
                     </div>
                     <div class="row">
-                        <label for="email">El teu correu:</label><br />
+                        <label for="email">Correu:</label><br />
                         <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
                     </div>
                     <div class="row">
-                        <label for="message">El teu missatge:</label><br />
+                        <label for="message">Missatge:</label><br />
                         <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
                     </div>
-                    <input id="submit_button" type="submit" value="Send email" />
+                    <input id="submit_button" type="submit" value="Enviar" />
                 </form> 
             </section>  
             <!-- Part final de la plana on podem trobar informació sobre el creador. -->
-            <footer id="footer">
-                <p>&copy; Untitled. All rights reserved. Design by <a href="http://iescarlesvallbona.cat/" rel="nofollow">IES Carles Vallbona</a>.
-            </footer>
+            <section id="footer-contact">
+                <footer id="footer-IES">
+                   <p class="formp">&copy; Untitled. All rights reserved. Design by <a href="http://iescarlesvallbona.cat/" rel="nofollow">IES Carles Vallbona</a>.</p>
+                </footer>
+            </section>
     </body>
 </html>
