@@ -29,6 +29,11 @@ strong {
 }
 
 /* img */
+
+#logo-img{
+	float: left;
+}
+
 img.border {
 }
 
@@ -118,9 +123,10 @@ input{
 /* Logo */
 
 #logo {
-	width: 960px;
-	height: 150px;
-	margin: 0px auto -35px auto;
+	width: 87%;
+	height: 115px;
+	float: right;
+	margin-top: 18px;
 }
 
 #logo h1, #logo p {
