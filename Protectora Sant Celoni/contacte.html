@@ -50,7 +50,10 @@ Autor: Ivan Mir
             <!-- Banner principal -->
             <div id="banner"><img src="images/contacto-banner.jpg" width="1200" height="240" alt="banner" /></div>
             <h1 class="title1">Concacte</h1>
-            <p class="formp">Per enviar-nos un correu per a qualsevol cosa, ompli aquest formulari. Moltes gracies.</p>
+            <p class="formp">Per enviar-nos un correu per a qualsevol cosa, ompli aquest formulari. Moltes gracies.
+            </br>
+            Si no, pot communicar-se amb nosaltres via mail: <a>iescarlesvallbona@iescarlesvallbona.cat</a> o en número de telèfon: 12345678.
+            </p>
             <section class="form">
                 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
                     <div class="row">
@@ -65,10 +68,7 @@ Autor: Ivan Mir
                         <label for="message">Missatge:</label><br />
                         <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
                     </div>
-                    <input id="submit_button" type="submit" value="Enviar" />
-                    <script>
-                    document.submit_button.submit();
-                    </script>
+                    <input name="button2" type="button" onclick='alert("Missatge enviat.")' value="Enviar" />
                 </form> 
             </section>  
             <!-- Part final de la plana on podem trobar informació sobre el creador. -->
