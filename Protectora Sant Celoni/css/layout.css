@@ -49,6 +49,7 @@ strong {
 
 #logo-img{
 	float: left;
+	padding: 25px;
 }
 
 img.border {
@@ -140,22 +141,20 @@ input{
 /* Logo */
 
 #logo {
-	width: 89%;
-	height: 115px;
-	float: right;
 	margin-top: 18px;
+    margin-bottom: 16px;
 }
 
 #logo h1, #logo p {
 	margin: 0;
-	padding: 0;
+	padding-top: 25px;
 }
 
 #logo h1 {
 	line-height: 100px;
 	letter-spacing: -1px;
 	text-align: center;
-	    float: left;
+	float: left;
 }
 
 
@@ -163,7 +162,7 @@ input{
 	text-align: center;
 }
 #logo a {
-	padding: 20.5%;
+	margin-left: 140px;
 }
 
 /** MENU */
