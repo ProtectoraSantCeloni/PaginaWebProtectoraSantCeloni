@@ -296,13 +296,13 @@ input{
 
 #three-columns #column1 {
 	float: left;
-	width: 45%;
-	margin-right: 40px;
+    width: 57%;
+    margin-right: 98px;
 }
 
 #three-columns #column2 {
-	float: left;
-	width: 50%;
+	float: right;
+    width: 34%;
 }
 
 #three-columns #columnInfo1 {
