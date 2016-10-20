@@ -279,6 +279,24 @@ input{
 	width: 50%;
 }
 
+#three-columns #columnInfo1 {
+	float: left;
+}
+
+#three-columns #columnInfo2 {
+	float: right;
+
+}
+
+#three-columns #columnInfo1 p{
+	font-size: 140%;
+	margin-left: 20px;
+}
+#three-columns #columnInfo1 p span{
+	font-weight: bold;
+}
+
+
 #three-columns #column3 {
 	float: right;
 	width: 300px;
