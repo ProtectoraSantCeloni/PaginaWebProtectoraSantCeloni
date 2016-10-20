@@ -305,6 +305,17 @@ input{
     width: 34%;
 }
 
+#three-columns #column1a {
+	float: left;
+    width: 45%;
+    margin-right: 98px;
+}
+
+#three-columns #column2a {
+	float: right;
+    width: 45%;
+}
+
 #three-columns #columnInfo1 {
 	float: left;
 }
