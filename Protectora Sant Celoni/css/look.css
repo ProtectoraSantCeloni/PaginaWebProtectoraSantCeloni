@@ -164,12 +164,14 @@ a img {
 
 /* List Style 1 */
 
+.link-style:hover{
+	background:#55736D;
+}
 .link-style {
 	background: #364659;
 	border-radius: 5px;
 	letter-spacing: 1px;
 	text-decoration: none;
-	text-shadow: 1px 0px 1px #5C1111;
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
