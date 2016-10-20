@@ -1,0 +1,162 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	
+	background: #9DBF8E;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	color: #454545;
+}
+h1, h2, h3 {
+
+font-weight: 300;
+	font-family: 'Oswald', sans-serif;
+	color: #221D1D;
+	}
+
+	h2 {
+	font-size: 2.5em;
+}
+a {
+	color: #55736D;
+}
+a:hover {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+
+
+/** Menu **/
+.nav li a {
+				background-color:#55736D;
+				color:#fff;
+				text-decoration:none;
+			}
+			.nav li a:hover {
+				background-color:#364659;
+			}
+
+/*  Form */ 
+
+/** WRAPPER */
+
+#wrapper {
+	
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
+}
+
+/* Logo */
+
+#logo h1 {
+	line-height: 100px;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+#logo h1 span {
+	color: #1F1F1F;
+}
+
+#logo p {
+	font-size: 16px;
+	color: #595959;
+}
+#logo p a {
+	font-size: 25px;
+	color: #595959;
+}
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	font-size: 40px;
+	color: #1F1F1F;
+}
+
+/* Menu */
+
+#menu {
+	background: #55736D;
+	font-size: 20px;
+	color: #55736D;
+}
+#menu ul {
+	text-align: center;
+}
+#menu a {
+
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	color: #FFFFFF;
+	border: none;
+}
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+#menu .current_page_item a {
+	border-radius: 5px;
+	background: #C60F97;
+	color: #FFFFFF;
+}
+
+/*  footer  */
+
+#footer p {
+	color: black;
+}
+#footer a {
+	color: #272D40;
+}
+#footer-content {
+	background: #ECECEC;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	color: #666666;
+}
+#footer-content h2 {
+	font-size: 24px;
+}
+
+/* Welcome */
+
+#welcome h2 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Three Columns */
+
+#three-columns h2 {
+	color: #000000;
+}
+
+/* Two Columns */
+
+#two-columns h2 {
+	color: #000000;
+}
+
+/* List Style 1 */
+.list-style1 .date {
+	font-weight: bold;
+	color: #212121;
+}
+
+/* List Style 1 */
+
+.link-style {
+	background: #364659;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-shadow: 1px 0px 1px #5C1111;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}

@@ -22,23 +22,6 @@ p {
 strong {
 }
 
-/* Time  */ 
-#hora{
-	/*margin-top: 4%;*/
-	position:fixed !important; 
-	right:0px; 
-	top:0px; 
-	z-index:10 !important;
-	float: right;
-	display: block;
-	background: white;
-	border: solid 1px;
-	border-radius: 2px;
-	font-size: 20px;
-}
-
-
-
 /* tittle */
 .title1{
 	text-align: center;
@@ -46,12 +29,6 @@ strong {
 }
 
 /* img */
-
-#logo-img{
-	float: left;
-	padding: 25px;
-}
-
 img.border {
 }
 
@@ -105,7 +82,7 @@ form{
 	padding:30px;
 	cursor:pointer;
 	display:block;
-	width:230px;
+	width:290px;
 	margin: 0 auto;
 	margin-top: 1%;
 	text-align:left;
@@ -141,28 +118,25 @@ input{
 /* Logo */
 
 #logo {
-	margin-top: 18px;
-    margin-bottom: 16px;
+	width: 960px;
+	height: 150px;
+	margin: 0px auto -35px auto;
 }
 
 #logo h1, #logo p {
 	margin: 0;
-	padding-top: 25px;
+	padding: 0;
 }
 
 #logo h1 {
 	line-height: 100px;
 	letter-spacing: -1px;
 	text-align: center;
-	float: left;
 }
 
 
 #logo p {
 	text-align: center;
-}
-#logo a {
-	margin-left: 140px;
 }
 
 /** MENU */

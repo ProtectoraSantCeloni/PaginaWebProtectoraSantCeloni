@@ -12,76 +12,50 @@ Autor: Ivan Mir
         <meta name="description" content="Aquesta es la web principal de la nostra protectora d'animals" />
         <meta http-equiv="Content-Language" content="cat"/>
         <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
-        <link href="css/look.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/layout.css" rel="stylesheet" type="text/css" media="all" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link href="../css/look.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../css/layout.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
     </head>
     <body>
         <div id="wrapper">
         <!-- Part inicial de la pagina amb una vaga precentació -->
             <header id="header">
-            
                 <div id="logo">
-                <img id="logo-img" src="images/logo.png" width="200" height="100" alt="logo" />
-                    <h1><a href="#">Protectora Animals Sant Celoni
-                        </a>
-                    </h1>
-                    <div id="hora"></div>
-<script type="text/javascript">
-
-    window.onload = function() {
-        // Executa refreshTime cada 1 segons (10000 milisegons)
-        setInterval(refreshTime, 1000);
-    };
-
-    function refreshTime() {
-        var data = new Date();
-        document.getElementById("hora").innerHTML = afegirZero(data.getDate()) + "/" + afegirZero((data.getMonth()+1)) + "/" + data.getFullYear() + " " + afegirZero(data.getHours()) + ":" + afegirZero(data.getMinutes()) + ":" + afegirZero(data.getSeconds());
-    }
-    
-    function afegirZero(data){
-        if (data < 10) {
-            return ("0" + data);
-        } else {
-            return data;
-        }
-    }
-</script> 
-
-             </div>
+                    <h1><a href="#">Protectora Animals Sant Celoni</a></h1>
+                </div>
             </header>
             <!-- end #header -->
             <!-- Menu on poder viatjar per la pàguina. -->
             <nav id="menu">
                 <ul class="nav">
-                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="../index.html">Inici</a></li>
                     <li><a href="">Adopta</a>
                         <ul>
-                            <li><a href="adopta/ungos.html">Un gos</a></li>
-                            <li><a href="adopta/ungat.html">Un gat</a></li>
-                            <li><a href="adopta/altres.html">Altres</a></li>
+                            <li><a href="ungos.html">Un gos</a></li>
+                            <li><a href="ungat.html">Un gat</a></li>
+                            <li><a href="altres.html">Altres</a></li>
                     </li>
                 </ul>
                 </li>
-                <li><a href="jatenencasa.html">Ja tenen casa</a></li>
+                <li><a href="../jatenencasa.html">Ja tenen casa</a></li>
                 <li><a href="">Info</a>
                     <ul>
-                        <li><a href="info/on.html">On Som?</a></li>
-                        <li><a href="info/horari.html">Horari</a></li>
+                        <li><a href="../info/on.html">On Som?</a></li>
+                        <li><a href="../info/horari.html">Horari</a></li>
                     </ul>
                 </li>
-                <li><a href="contacte.html">Contacte</a></li>
+                <li><a href="../contacte.html">Contacte</a></li>
                 </ul>
             </nav>
             <!-- Banner principal -->
-            <div id="banner"><img src="images/dalmatian-dogs.jpg" width="1200" height="400" alt="banner" /></div>
+            <div id="banner"><img src="../images/dalmatian-dogs.jpg" width="1200" height="400" alt="banner" /></div>
             <!-- Contingut de la plana -->
             <section id="three-columns">
                 <section class="content">
                 <!-- Article número 1 -->
                     <article id="column1">
                         <h2>Ja té casa!</h2>
-                        <p><img src="images/leila.jpeg" width="450" height="300" alt="Leila en adopcio" /></p>
+                        <p><img src="../images/leila.jpeg" width="450" height="300" alt="Leila en adopcio" /></p>
                         <p>Aquí tenim a la <strong>Leila </strong>, una gosa que va ser rescatada dels carrers i ja te un bon hogar on disfrutar amb la seva nova família. T'agradaría disfrutar d'aquesta experiéncia? </p> <a href="adopta/ungos.html" class="link-style">Llegeix més</a></p>
                     </article>
                     <!-- Article numero 2 -->
@@ -90,15 +64,15 @@ Autor: Ivan Mir
                         <ul class="list-style1">
                             <li class="first">
                                 <p>També podem adoptar gossos.</p>
-                                <p><a href="adopta/ungos.html" class="link-style">Llegeix més</a></p>
+                                <p><a href="ungos.html" class="link-style">Llegeix més</a></p>
                             </li>
                             <li>
                                 <p>Podem adoptar un gat. </p>
-                                <p><a href="adopta/ungat.html" class="link-style">Llegeix més</a></p>
+                                <p><a href="ungat.html" class="link-style">Llegeix més</a></p>
                             </li>
                             <li>
                                 <p>Fins i tot podem adoptar altres animals estranys.</p>
-                                <p><a href="adopta/altres.html" class="link-style">Llegeix més</a></p>
+                                <p><a href="altres.html" class="link-style">Llegeix més</a></p>
                             </li>
                         </ul>
                     </article>
@@ -111,7 +85,7 @@ Autor: Ivan Mir
                     <ul class="list-style1">
                         <li class="first">
                             <p class="date">December 24, 2015</p>
-                            <p> <img src="images/thor.jpg" width="130" height="119" alt="Gos en adopció" />Any de naixement: 2015</br>
+                            <p> <img src="../images/thor.jpg" width="130" height="119" alt="Gos en adopció" />Any de naixement: 2015</br>
                             Sexe: Mascle</br>
                             Raça: Mestís</br>
                             Mida: Gran</br>
@@ -120,8 +94,8 @@ Autor: Ivan Mir
                         </p>
                         </li>
                         <li>
-                            <p class="date">December 20, 2014</p>
-                            <p><img src="images/gris.jpg" width="130" height="119" alt="Gat en adopció" />Fitxa de GRIS</br>
+                            <p class="date">December 20, 2012</p>
+                            <p><img src="../images/gris.jpg" width="130" height="119" alt="Gat en adopció" />Fitxa de GRIS</br>
 
                             Sexe: mascle</br>
                             Raça: europeu</br>
