@@ -60,19 +60,7 @@ Autor: Ivan Mir
                         <div>
                             <!-- mapa -->
                             <div id="mapa" style="width:100%;height:400px"></div>
-                            <script>
-                                function initMap() {
-                                    var LatitudLongitud = {lat: 41.684570, lng: 2.491311};
-
-                                    var mapa = new google.maps.Map(document.getElementById('mapa'), {
-                                        center: LatitudLongitud,
-                                        zoom: 16});
-
-                                    var marker = new google.maps.Marker({
-                                        map: mapa,
-                                        position: LatitudLongitud});
-                                }
-                            </script>
+                            <script type="text/javascript" src="../js/mapa.js"></script>
                             <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
                         </div>
                 </section>
