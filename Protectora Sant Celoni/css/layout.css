@@ -7,6 +7,10 @@ h1, h2, h3 {
 	padding: 0;
 }
 
+#aligntitol {
+	margin-left: 140px !important;
+}
+
 
 p, ol, ul {
 	margin-top: 0px;
