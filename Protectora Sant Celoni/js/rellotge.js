@@ -1,5 +1,6 @@
 window.onload = function() {
     // Executa refreshTime cada 1 segons (10000 milisegons)
+    refreshTime();
     setInterval(refreshTime, 1000);
 };
 

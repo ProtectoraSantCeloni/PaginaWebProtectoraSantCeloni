@@ -29,16 +29,12 @@ strong {
 /* Time  */ 
 #hora{
 	/*margin-top: 4%;*/
-	position:fixed !important; 
 	right:0px; 
 	top:0px; 
-	z-index:10 !important;
 	float: right;
 	display: block;
-	background: white;
-	border: solid 1px;
-	border-radius: 2px;
 	font-size: 20px;
+
 }
 
 
