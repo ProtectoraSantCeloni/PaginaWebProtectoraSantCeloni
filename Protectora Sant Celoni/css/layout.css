@@ -109,7 +109,14 @@ form{
 	margin: 0 auto;
 	margin-top: 1%;
 	text-align:left;
+
 }
+textarea {
+resize: vertical;
+min-height: 50px;
+max-height: 100px;
+}
+
 input{
   color:grey;
 }
@@ -196,7 +203,7 @@ input{
 #footer {
 	overflow: hidden;
 	width: 1000px;
-	height: 200px;
+	height: 75px;
 	margin: 0 auto;
 	padding: 40px 0 15px 0;
 }
